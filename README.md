@@ -1,7 +1,7 @@
 
 # 🧾 Vendor Performance Analysis – Retail Inventory & Sales
 
-_Analyzing vendor efficiency and profitability to support strategic purchasing and inventory decisions using SQL, Python, and Power BI._
+_Analyzing vendor efficiency and profitability to support better purchasing and inventory strategies using SQL, Python, and Power BI._
 
 ---
 
@@ -22,23 +22,25 @@ _Analyzing vendor efficiency and profitability to support strategic purchasing a
 ---
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
-This project evaluates vendor performance and retail inventory dynamics to drive strategic insights for purchasing, pricing, and inventory optimization. A complete data pipeline was built using SQL for ETL, Python for analysis and hypothesis testing, and Power BI for visualization.
+This project evaluates vendor performance and inventory patterns in the retail sector to generate actionable insights for decision-making. A full pipeline was built where SQL was used for data extraction and transformation, Python for cleaning, analysis, and hypothesis testing, and Power BI for creating interactive dashboards.
 
 ---
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
+Retail businesses often face challenges with:
 
-Effective inventory and sales management are critical in the retail sector. This project aims to:
-- Identify underperforming brands needing pricing or promotional adjustments
-- Determine vendor contributions to sales and profits
-- Analyze the cost-benefit of bulk purchasing
-- Investigate inventory turnover inefficiencies
-- Statistically validate differences in vendor profitability
+- Identifying underperforming brands needing promotions or pricing changes
+- Understanding vendor contributions to overall sales and profit
+- Assessing the cost–benefit of bulk purchases
+- Detecting slow-moving or unsold inventory
+- Comparing profitability across different vendors
+
+This project addresses these challenges with data-driven analysis.
 
 ---
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
 
-- Multiple CSV files located in `/data/` folder (sales, vendors, inventory)
-- Summary table created from ingested data and used for analysis
+- Multiple CSV files containing sales, vendor, and inventory information
+- Data was ingested into SQL, cleaned, and transformed into summary tables for further analysis
 
 ---
 
@@ -68,8 +70,6 @@ vendor-performance-analysis/
 │   ├── ingestion_db.py
 │   └── get_vendor_summary.py
 │
-├── dashboard/                  # Power BI dashboard file
-│   └── vendor_performance_dashboard.pbix
 ```
 
 ---
@@ -112,15 +112,7 @@ vendor-performance-analysis/
 6. **Hypothesis Testing**: Statistically significant difference in profit margins → distinct vendor strategies
 
 ---
-<h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
 
-- Power BI Dashboard shows:
-  - Vendor-wise Sales and Margins
-  - Inventory Turnover
-  - Bulk Purchase Savings
-  - Performance Heatmaps
-
-![Vendor Performance Dashboard](images/dashboard.png)
 
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
@@ -140,8 +132,6 @@ python scripts/get_vendor_summary.py
 5. Open and run notebooks:
    - `notebooks/exploratory_data_analysis.ipynb`
    - `notebooks/vendor_performance_analysis.ipynb`
-6. Open Power BI Dashboard:
-   - `dashboard/vendor_performance_dashboard.pbix`
 
 ---
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
@@ -157,6 +147,5 @@ python scripts/get_vendor_summary.py
 
 **Ayushi Mishra**  
 Data Analyst  
-📧 Email: techclasses0810@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/ayushi-mishra-30813b174/)  
-🔗 [Portfolio](https://www.youtube.com/@techclasses0810/)
+📧 Email: vyankateshpanchal04@gmail.com 
+🔗 [LinkedIn](https://www.linkedin.com/in/vyankatesh-panchal/) 
